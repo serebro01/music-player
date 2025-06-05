@@ -1,34 +1,32 @@
 //
+//
 // === EDIT THIS SECTION ===
-// Note: The LAST item in the list should NOT have a comma after its closing }
 //
 const playlist = [
     {
         title: "Generated_song",
-        src: "https://drive.google.com/uc?export=download&id=1heasDDInzGLgZeywJaM5e_FL9SBtyKMv"
+        src: "music/TheFileNameOfThisSong.mp3" // <-- CHANGE THIS
     },
     {
         title: "Sub Stele de Dor (generated)",
-        src: "https://drive.google.com/uc?export=download&id=1RNMCiEsTuO7-Cp4brCb5X981o0kcl5fR"
+        src: "music/SubSteleDeDor.mp3" // <-- CHANGE THIS (use your actual file names)
     },
     {
         title: "Последний день весны 1 (generated)",
-        src: "https://drive.google.com/uc?export=download&id=1QEwImybeAOe6Duyf690wrpcsbjiysNFb"
+        src: "music/Vesna_1.mp3" // <-- CHANGE THIS
     },
     {
         title: "Последний день весны 2 (generated)",
-        src: "https://drive.google.com/uc?export=download&id=1gqpzBe6IOKcYiTAgbiEKZ3tJX7fRY2o5"
+        src: "music/Vesna_2.mp3" // <-- CHANGE THIS
     },
     {
         title: "Бибигон II",
-        src: "https://drive.google.com/uc?export=download&id=1wGwHsuh6G5kr1sfiNEJ5989Jl-8DFc-D"
+        src: "music/Bibigon_II.mp3" // <-- CHANGE THIS
     }
-   // <-- No comma after the last item!
 ];
 //
 // === END OF EDIT SECTION ===
 //
-
 
 // Player elements
 const audio = document.getElementById('audio-element');
