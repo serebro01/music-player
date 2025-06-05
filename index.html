@@ -2,32 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- This tag is crucial for responsive design on all devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Playlist Player</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="player-container">
+    <div id="player-container" class="player-container">
+        <!-- Main Player UI -->
         <div class="player">
             <div id="track-info">
-                <p id="track-title">Select a song to play</p>
+                <!-- The loader will appear inside here -->
+                <div class="loader-container">
+                    <div id="loader" class="loader"></div>
+                    <p id="track-title">Select a song to play</p>
+                </div>
             </div>
             
             <audio id="audio-element"></audio>
 
             <div class="controls">
-                <button id="prev-btn">⏮</button>
-                <button id="play-pause-btn">▶️</button>
-                <button id="next-btn">⏭</button>
+                <button id="prev-btn" title="Previous Track">⏮</button>
+                <button id="play-pause-btn" title="Play/Pause">▶️</button>
+                <button id="next-btn" title="Next Track">⏭</button>
             </div>
         </div>
 
+        <!-- The Playlist -->
         <ul id="playlist">
             <!-- Playlist items will be generated here by JavaScript -->
         </ul>
+        
+        <!-- Copyright & Contact Link Section -->
+        <div class="footer-notice">
+            <a href="https://YOUR_USERNAME.github.io/contact-form/" target="_blank" rel="noopener noreferrer">Content Notice & Contact</a>
+        </div>
     </div>
 
+    <!-- The script is loaded last to ensure the page elements exist first -->
     <script src="script.js"></script>
 </body>
 </html>
