@@ -3,8 +3,8 @@
 //
 const playlist = [
     {
-        title: "Inspiring Cinematic Ambient",
-        src: "https://drive.google.com/uc?export=download&id=1a-Aido_j3y1C5Mh2n7p_3Ojs3nnaG_sa"
+        title: "Generated_song",
+        src: "https://drive.google.com/file/d/1heasDDInzGLgZeywJaM5e_FL9SBtyKMv/view?usp=sharing"
     },
     {
         title: "Corporate Ukulele & Whistle",
